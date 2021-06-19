@@ -173,7 +173,7 @@ public class HomeTask5Additional {
     }
 
     @Test
-    void SmokeTest3_3() throws InterruptedException {
+    public void SmokeTest3_3() throws InterruptedException {
 
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("drivers/chromedriver.exe").getFile());
