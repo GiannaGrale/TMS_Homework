@@ -24,7 +24,7 @@ public class HomeTask5 {
         10.Проверить результаты: ‘Количество упаковок ламината: '7'
         11.Закрыть окно браузера*/
 
-        ClassLoader classLoader = this.getClass().getClassLoader();
+        ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("drivers/chromedriver.exe").getFile());
         String absPath = file.getAbsolutePath();
         System.setProperty("webdriver.chrome.driver", absPath);
